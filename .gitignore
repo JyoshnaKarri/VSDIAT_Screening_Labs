@@ -1,0 +1,5 @@
+*.ext
+*.tar
+*.log
+.xschem/
+__pycache__/
