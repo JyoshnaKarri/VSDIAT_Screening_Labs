@@ -13,3 +13,5 @@
 
 ## Tool Versions Verified
 ![Tool Versions](images/tool_versions.png)
+Magic 8.3.685, Netgen 1.5.325, SKY130 PDK installed.
+
