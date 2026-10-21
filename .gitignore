@@ -1,0 +1,5 @@
+*.ext
+*.tar
+*.log
+*:Zone.Identifier
+__pycache__/

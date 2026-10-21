@@ -1,0 +1,15 @@
+( @@user : jyoshna_vsd );
+( @@machine : ? );
+( @@source : exercise_1a.mag );
+( @@tool : Magic 8.3.685 );
+( @@compiled : Tue Oct 20 14:40:16 UTC 2026 );
+( @@technology : sky130A );
+( @@version : 1.0.532-2-gc6d73a3 );
+( @@techdesc : SkyWater SKY130: Open Source rules and DRC );
+( @@style : gdsii() );
+( @@date : Tue Oct 20 17:02:56 2026 );
+DS 1 1 20;
+9 exercise_1a;
+DF;
+C 1;
+End
