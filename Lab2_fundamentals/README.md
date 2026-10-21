@@ -13,6 +13,4 @@ drc why
 ## Result
 No errors found.
 
-## Screenshots
-![Cell Loaded](images/cell_loaded.jpeg)
-![DRC Output](images/drc_output.jpeg)
+
