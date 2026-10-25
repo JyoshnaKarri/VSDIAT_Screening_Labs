@@ -10,16 +10,45 @@ Netgen 1.5.325 with `sky130A_setup.tcl`.
 ```bash
 netgen -batch lvs "netA.spice test" "netB.spice test" sky130A_setup.tcl comp.out -json | tee lvs.log
 ```
-
 For every exercise I ran the comparison, opened `comp.out`, and noted whether I got a match, a net mismatch or a device mismatch.
 
 ## Exercises
-| Exercise | What it shows | 
-|----------|---------------|
-| 1 | Net and device mismatch | 
-| 2 | Subcircuit comparison, pin order | 
-| 3 | Black-box cells and `-blackbox` | 
-| 4 | Permuting pins |
-| 5 to 9 | Real designs, fill cells, diodes, property errors |
+
+| Exercise | What it shows | My result |
+|----------|---------------|-----------|
+| 1 | Net and device mismatch in `comp.out` | [result] |
+| 2 | Subcircuit comparison and pin order | [result] |
+| 3 | Black-box cells and the `-blackbox` flag | [result] |
+| 4 | Permuting the pins of low-level devices | [result] |
+| 5 | Extracting netlists from a real design | [result] |
+| 6 | Fill cells and `MAGIC_EXT_USE_GDS=1` | [result] |
+| 7 | Verilog netlists and power rails | [result] |
+| 8 | Missing diode and missing via connections | [result] |
+| 9 | Property mismatches (width, length) | [result] |
+
+Delete any row for an exercise you did not do.
+
+### Exercise 1: Net and device mismatch
+Netgen does not compare net names. It groups nets that look alike into partitions, so the net mismatch in `comp.out` is usually easier to debug than the device mismatch.
+
+![Netgen mismatch output](../img_16.jpeg)
+*[what the screenshot shows]*
+
+### Exercise 2: Subcircuits and pin order
+A subcircuit definition on its own is not an active component. Only lines that instantiate it count. Changing the pin order inside a subcircuit still matched, but changing pin names at the top level gave a mismatch.
+
+![Pin order comparison](../img_17.jpeg)
+*[what the screenshot shows]*
+
+### Exercise 3: Black-box cells
+Empty subcircuits are treated as black boxes, and changing a port name creates proxy pins. The `-blackbox` flag stops Netgen from flattening empty cells.
+
+![Black-box result](../img_18.jpeg)
+*[what the screenshot shows]*
+
+### Exercises 4 to 9
+
+![Final match](../img_19.jpeg)
+*[what the screenshot shows]*
 
 
