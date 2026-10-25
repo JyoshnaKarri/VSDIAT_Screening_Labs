@@ -17,13 +17,13 @@ drc find
 ```
 
 ## Exercises
-| Exercise | Rule | Result |
-|----------|------|--------|
-| 1 | Width, spacing, notch | ___ |
-| 2 | Vias | ___ |
-| 3 | Minimum area and hole | ___ |
-| 4 | Wells and deep nwell | ___ |
-| ... | ... | ___ |
+| Exercise | Rule | 
+|----------|------|
+| 1 | Width, spacing, notch | 
+| 2 | Vias | 
+| 3 | Minimum area and hole | 
+| 4 | Wells and deep nwell | 
+| ... | ... |
 
 ## Density check
 I ran `check_density.py` on `exercise_11.gds`. It reported that the layout is smaller than 700 µm x 700 µm, so the density check cannot run on it. I also ran `generate_fill.py` on the GDS file. Passing the `.mag` file gave "Project is not a GDS file!", so it needs the GDS.
