@@ -14,17 +14,17 @@ For every exercise I ran the comparison, opened `comp.out`, and noted whether I 
 
 ## Exercises
 
-| Exercise | What it shows | My result |
-|----------|---------------|-----------|
-| 1 | Net and device mismatch in `comp.out` | [result] |
-| 2 | Subcircuit comparison and pin order | [result] |
-| 3 | Black-box cells and the `-blackbox` flag | [result] |
-| 4 | Permuting the pins of low-level devices | [result] |
-| 5 | Extracting netlists from a real design | [result] |
-| 6 | Fill cells and `MAGIC_EXT_USE_GDS=1` | [result] |
-| 7 | Verilog netlists and power rails | [result] |
-| 8 | Missing diode and missing via connections | [result] |
-| 9 | Property mismatches (width, length) | [result] |
+| Exercise | What it shows | 
+|----------|---------------|
+| 1 | Net and device mismatch in `comp.out` | 
+| 2 | Subcircuit comparison and pin order | 
+| 3 | Black-box cells and the `-blackbox` flag | 
+| 4 | Permuting the pins of low-level devices | 
+| 5 | Extracting netlists from a real design | 
+| 6 | Fill cells and `MAGIC_EXT_USE_GDS=1` | 
+| 7 | Verilog netlists and power rails | 
+| 8 | Missing diode and missing via connections | 
+| 9 | Property mismatches (width, length) | 
 
 Delete any row for an exercise you did not do.
 
