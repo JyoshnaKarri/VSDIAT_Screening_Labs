@@ -12,6 +12,6 @@
 - Hard-coded paths in sky130A.magicrc → fixed with PDK_ROOT
 
 ## Tool Versions Verified
-![Tool Versions](images/Verification image.jpeg)
+![Tool Versions](Downloads/Verification image.jpeg)
 Magic 8.3.685, Netgen 1.5.325, SKY130 PDK installed.
 
