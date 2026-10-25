@@ -23,5 +23,4 @@ Xschem 3.4.8RC, ngspice 42, Magic 8.3.685, Netgen 1.5.325, sky130A PDK.
 ![Lab 1 screenshot](images/img_6.jpeg)
 ![Lab 1 screenshot](images/img_7.jpeg)
 
-## Issues faced and fixes
-- ___ (any mismatch or error you hit and how you fixed it)
+
