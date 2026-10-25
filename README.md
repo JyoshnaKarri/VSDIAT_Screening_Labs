@@ -141,4 +141,4 @@ Cause: `sky130A.tcl` had the same hard-coded build path in `TECHPATH`. Fix: poin
 Fix: used `magic -d X11`.
 
 ## Author
-Jyoshna Karri
+Jyotshna Karri
