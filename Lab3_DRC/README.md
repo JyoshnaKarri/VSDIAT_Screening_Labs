@@ -39,20 +39,17 @@ paint m1
 Delete any row for an exercise you did not do.
 
 ### Exercise 1: Width, spacing and notch
-[Describe the violation `drc why` reported and how you fixed it.]
-
 ![DRC violation before the fix](../img_11.jpeg)
-*Before: [what the screenshot shows]*
 
 ![DRC clean after the fix](../img_12.jpeg)
-*After: [what the screenshot shows]*
+
 
 
 ## Density check
 I ran `check_density.py` on `exercise_11.gds`. It reported that the layout is smaller than 700 µm x 700 µm, so the density check cannot run on a layout this small. I also ran `generate_fill.py`. Giving it the `.mag` file produced "Project is not a GDS file!", so it needs the `.gds` file.
 
 ![Density script output](../img_13.jpeg)
-*[what the screenshot shows]*
+
 
 ## Issues faced and fixes
 - **`Project is not a GDS file!`:** the script needs a `.gds` input, not a `.mag` file.
