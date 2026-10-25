@@ -16,8 +16,6 @@ Xschem 3.4.8RC, ngspice 42, Magic 8.3.685, Netgen 1.5.325, sky130A PDK.
 7. **LVS:** compared the layout and schematic netlists with Netgen.
 
 ## Results
-- Simulation: ___ (describe the waveform: output switching with the input)
-- LVS: ___ (for example, "Circuits match uniquely")
 
 ![Lab 1 screenshot](images/img_5.jpeg)
 ![Lab 1 screenshot](images/img_6.jpeg)
