@@ -32,7 +32,7 @@ This loads all the cells in the library from the GDS file.
 load sky130_fd_sc_hd__and2_1
 ```
 
-![AND2_1 cell loaded in Magic](images/img_1.jpeg)
+![AND2_1 cell loaded in Magic](images/cell_loaded.jpeg)
 
 The layout window shows the cell. (Describe what you see, such as the layers and the pins.)
 
@@ -46,7 +46,7 @@ drc why
 - `drc check` runs the check.
 - `drc why` explains any violation found, and prints nothing useful when there are none.
 
-![DRC output](images/img_17.jpeg)
+![DRC output](images/drc_output.jpeg)
 
 ## Result
 No DRC errors were found for `sky130_fd_sc_hd__and2_1`.
