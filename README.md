@@ -128,7 +128,7 @@ The listing shows `libs.ref` and `libs.tech`, so the PDK is in place.
 ### Step 7: Verify the setup
 Add a screenshot of Magic opening with the sky130A technology, and the version outputs for all tools.
 
-![Verification screenshot](images/img_3.jpeg)
+![Verification screenshot](downloads/img_3.jpeg)
 
 ## Issues faced and fixes
 
