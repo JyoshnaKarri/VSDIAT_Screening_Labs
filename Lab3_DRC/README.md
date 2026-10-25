@@ -23,7 +23,7 @@ drc find
 | 2 | Vias | 
 | 3 | Minimum area and hole | 
 | 4 | Wells and deep nwell | 
-| ... | ... |
+
 
 ## Density check
 I ran `check_density.py` on `exercise_11.gds`. It reported that the layout is smaller than 700 µm x 700 µm, so the density check cannot run on it. I also ran `generate_fill.py` on the GDS file. Passing the `.mag` file gave "Project is not a GDS file!", so it needs the GDS.
