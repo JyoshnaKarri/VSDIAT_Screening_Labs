@@ -125,10 +125,6 @@ ls /usr/local/share/pdk/sky130A
 
 The listing shows `libs.ref` and `libs.tech`, so the PDK is in place.
 
-### Step 7: Verify the setup
-Add a screenshot of Magic opening with the sky130A technology, and the version outputs for all tools.
-
-
 
 ## Issues faced and fixes
 
