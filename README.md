@@ -75,7 +75,7 @@ sudo apt install -y build-essential git x11-apps m4 tcsh csh libx11-dev tcl-dev 
 ### Step 2: Check that GUI apps work
 I ran `xeyes` to confirm that graphical windows open from WSL.
 
-![xeyes window opened from WSL](Downloads/xeyes image.jpeg)
+
 
 ### Step 3: Build and install Magic
 ```bash
@@ -87,7 +87,7 @@ sudo make install
 magic --version
 ```
 
-![Magic version output](Downloads/magic_version.jpeg)
+
 
 ### Step 4: Build and install Netgen
 ```bash
@@ -128,7 +128,7 @@ The listing shows `libs.ref` and `libs.tech`, so the PDK is in place.
 ### Step 7: Verify the setup
 Add a screenshot of Magic opening with the sky130A technology, and the version outputs for all tools.
 
-![Verification screenshot](Downloads/img_3.jpeg)
+
 
 ## Issues faced and fixes
 
